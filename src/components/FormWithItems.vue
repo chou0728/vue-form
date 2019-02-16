@@ -58,5 +58,7 @@ export default {
     FormItem
   }
 };
+// JSON.parse(JSON.stringify(Object))
+// this.$data = initialState() 會報錯  [Vue警告]：避免替换提體根$data。請改用鑲嵌數據属性
 </script>
 
